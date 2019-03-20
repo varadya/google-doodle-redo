@@ -1,0 +1,29 @@
+/*
+  DIAGNOSTIC STYLING
+*/
+
+
+
+
+/* Your Awesome Scripts */
+
+/* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+ */
+/* Doodle Stage */
+#stage {
+  background: white;
+  height: 300px;
+  width: 600px;
+  stroke:#070808;
+  stroke-width:2;
+  stroke-dasharray: 750;
+  stroke-dashoffset: 750; 
+  animation: offset 6s linear forwards;
+}
+
+@keyframes offset {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
